@@ -1,5 +1,4 @@
-def caculate():
-  x = float(input("Enter your score: "))
+def calculate(x):
   if x >= 0 and x < 60:
     grade = "F"
   elif x >= 60 and x < 70:
@@ -13,4 +12,3 @@ def caculate():
   elif x < 0 or x > 100:
     grade  = "N/A"
   return (grade)
-print(caculate())
