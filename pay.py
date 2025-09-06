@@ -8,5 +8,5 @@ def unfair_weekly_paycheck_amount(x):
 def fair_weekly_paycheck_amount(x):
   payment = x * 15
   return payment
-print(fair_weekly_paycheck_amount(3.75))
+
 
