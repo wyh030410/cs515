@@ -17,3 +17,7 @@ def show_triangle(n):
         formatted_rows.append(spaces + row)
     print("\n".join(formatted_rows))
 
+
+if __name__ == "__main__":
+    n = int(input())
+    show_triangle(n)
