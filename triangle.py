@@ -9,6 +9,7 @@ def triangle(n):
 
 def show_triangle(n):
     if n == 0:
+        print()
         return
     rows = triangle(n)
     formatted_rows = []
