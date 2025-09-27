@@ -18,7 +18,7 @@ def dfs(graph):
                 print(node)
                 visited.add(node)
                 neighbors = graph.get(node, [])
-                for neighbor in reversed(neighbors):
+                for neighbor in neighbors:
                     if neighbor not in visited:
                         stack.append(neighbor)
 
