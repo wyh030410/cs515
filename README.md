@@ -1,11 +1,12 @@
-# cs515 HM3
+# cs515 HM2
 
 Yuhui Wang ywang513@stevens.edu
 
 # 1. Bugs or issues
 
-questions are a little difficult to handle
+Confusing the usage of pop() and remove() caused an error.
 
 # 2. Resolved issuebugs and issue
 
-search for ai for help and complete these question alone one more time
+pop() removes an element by its index.
+remove() removes an element by its value.
