@@ -1,4 +1,4 @@
-def longest(filename):
+def longest_lines(filename):
     lines = open(filename).readlines()
     lines = [line.rstrip('\n') for line in lines]
     max_length = max(len(line) for line in lines)
@@ -6,4 +6,4 @@ def longest(filename):
 with open('foo.txt', 'w') as f:
     f.write('a\nb\ncd\nef\ng\n')
 
-print(longest('foo.txt'))
+print(longest_lines('foo.txt'))
